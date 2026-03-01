@@ -20,7 +20,7 @@ target 'Ruler' do
   )
 
   # ViroReact – includes ARKit bindings
-  pod 'ViroReact', :path => '../node_modules/@viro-community/react-viro/ios/dist/ViroRenderer/'
+  pod 'ViroReact', :path => '../node_modules/@viro-community/react-viro/ios/'
   pod 'ViroKit', :path => '../node_modules/@viro-community/react-viro/ios/dist/ViroRenderer/'
 
   post_install do |installer|

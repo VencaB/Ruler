@@ -1,0 +1,42 @@
+# OSX
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+*.jsbundle
+.metro-health-check*
+.react-native-gradle-plugin/
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/debug.keystore
+*.apk
+*.aab
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+*.ipa
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
